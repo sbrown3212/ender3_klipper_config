@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+!*/
+
+# Files to track
+!printer.cfg
+!moonraker.conf
+!mainsail.cfg
+!macros.cfg
+!*.cfg
+!.gitignore
+!README.md
+!startup_guide.md
+
+# Ignore even if they match above
+.moonraker_database/
+.moonraker_database_lock
+backups/
+logs/
+gcodes/
+.theme/
+*.bak
+*.bkp
+*.tmp
+printer-*.cfg
